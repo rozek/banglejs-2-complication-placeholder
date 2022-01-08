@@ -5,7 +5,7 @@
     let halfScreenWidth = g.getWidth() / 2;
     if (x === halfScreenWidth) {
       g.setColor(Settings.Foreground === 'Theme' ? g.theme.fg : Settings.Foreground || '#000000');
-      g.drawRoundRect(x-2*Radius,y-Radius, x+2*Radius,y+Radius, Radius);
+      g.drawRoundRect(x-3*Radius,y-Radius, x+3*Radius,y+Radius, Radius);
     } else {
       g.setColor(Settings.Foreground === 'Theme' ? g.theme.fg : Settings.Foreground || '#000000');
       g.drawCircle(x,y, Radius);
