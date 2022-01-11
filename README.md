@@ -4,8 +4,12 @@ just a placeholder for the complications of an analog clock on Bangle.js 2
 
 Instead of a real "complication", this module just draws a placeholder for such a complication into the face of an analog clock running on a [Bangle.js 2](https://www.espruino.com/Bangle.js2).
 
-![](smallPlaceholders.png)
-![](largePlaceholders.png)
+<table>
+ <tr valign="top">
+   <td align="center"><img src="smallPlaceholders.png"><br>for small complications only</td>
+   <td align="center"><img src="largePlaceholders.png"><br>for small and large complications</td>
+ </tr>
+</table>
 
 ## Usage ##
 
