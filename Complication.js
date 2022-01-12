@@ -1,4 +1,4 @@
-(function () {
+;(function () {
   require('https://raw.githubusercontent.com/rozek/banglejs-2-drawroundrect/main/drawRoundRect.js');
 
   function drawWithLabel (Label, x,y, Radius, Settings) {
