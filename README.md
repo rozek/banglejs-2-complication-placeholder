@@ -15,7 +15,7 @@ Instead of a real "complication", this module just draws a placeholder for such 
 
 Within a clock implementation, the module may be used as follows:
 
-```
+```javascript
 let Placeholder = require('https://raw.githubusercontent.com/rozek/banglejs-2-complication-placeholder/main/Complication.js');
 
 let Clockwork = require(...);
